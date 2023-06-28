@@ -4,40 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>contact</title>
+    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>My portfolio</h1>
-    <p style="text-align: center; margin-right: 5px">
-      <a href="/lab02-Thanaschai/index.html">Home</a>
-      |
-      <a href="/lab02-Thanaschai/exp.html" style="margin-left: 5px"
-        >experience
-      </a>
-      |
-      <a style="margin-left: 5px" href="/lab02-Thanaschai/contact.html"
-        >Contact Me</a
+    <div
+      class="d-flex border-bottom gap-3 align-items-center p-2 px-4 bg-black text-white"
+    >
+      <h3>My Portfolio</h3>
+      <a
+        href="../lab02-Thanaschai/index.html"
+        class="text-white d-none d-sm-block"
+        >Home</a
       >
-    </p>
-    <img
-      src="/lab02-Thanaschai/images/photo.jpg"
-      width="200px"
-      style="margin-left: auto; display: block; margin-right: auto"
-    />
+      <a
+        href="../lab02-Thanaschai/exp.html"
+        class="text-white d-none d-sm-block"
+        >Experience</a
+      >
+      <a
+        href="../lab02-Thanaschai/Gallery.html"
+        class="text-white d-none d-sm-block"
+        >Gallery</a
+      >
+      <a
+        href="../lab02-Thanaschai/contact.html"
+        class="me-auto text-white d-none d-sm-block"
+        >contact</a
+      >
+      <span>Hi commers!</span>
+      <button class="btn btn-light">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-alarm-filled"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M16 6.072a8 8 0 1 1 -11.995 7.213l-.005 -.285l.005 -.285a8 8 0 0 1 11.995 -6.643zm-4 2.928a1 1 0 0 0 -1 1v3l.007 .117a1 1 0 0 0 .993 .883h2l.117 -.007a1 1 0 0 0 .883 -.993l-.007 -.117a1 1 0 0 0 -.993 -.883h-1v-2l-.007 -.117a1 1 0 0 0 -.993 -.883z"
+            stroke-width="0"
+            fill="currentColor"
+          ></path>
+          <path
+            d="M6.412 3.191a1 1 0 0 1 1.273 1.539l-.097 .08l-2.75 2a1 1 0 0 1 -1.273 -1.54l.097 -.08l2.75 -2z"
+            stroke-width="0"
+            fill="currentColor"
+          ></path>
+          <path
+            d="M16.191 3.412a1 1 0 0 1 1.291 -.288l.106 .067l2.75 2a1 1 0 0 1 -1.07 1.685l-.106 -.067l-2.75 -2a1 1 0 0 1 -.22 -1.397z"
+            stroke-width="0"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <br />
+    <div
+      class="border rounded-4 p-2 d-flex justify-content-center align-items-center mx-auto gap-3 bg-black text-white"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="../lab02-Thanaschai/images/photo.jpg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
 
-    <h3 class="skill-header">Thanaschai Chanabua</h3>
-    <p class="skill-header">
-      <br />Hi my name is Fluke.I graduated from Chiangmai University.
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3 text-white">Thanaschai Chanabua</div>
+        <div class="text-white">Studied Computer Engineering.</div>
+        <a href="mailto:thanatchai_c@cmu.ac.th">thanatchai_c@cmu.ac.th</a>
+      </div>
+    </div>
+    <br />
+    <div
+      class="border rounded-4 p-1 d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 500px"
+    >
+      <div>
+        <img
+          src="../lab02-Thanaschai/images/YouTube.webp"
+          class="rounded-circle"
+          width="100"
+          height="100"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-7 mb-3">YouTube Chanel</div>
+        <div class="text-muted">
+          You can follow beautiful songs from artists.
+          <a href="https://www.youtube.com/@ENZONEA">ENZONE</a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      class="border rounded-4 p-1 d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 500px"
+    >
+      <div>
+        <img
+          src="../lab02-Thanaschai/images/pin.jpg"
+          class="rounded-circle"
+          width="100"
+          height="100"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-7 mb-3">Address</div>
+        <div class="text-muted">
+          239 Huay Kaew Rd, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat
+          Chiang Mai 50200
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      class="border rounded-4 p-1 d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 500px"
+    >
+      <div>
+        <img
+          src="../lab02-Thanaschai/images/githup.png"
+          class="rounded-circle"
+          width="100"
+          height="100"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-7 mb-3">GitHup</div>
+        <div class="text-muted">
+          You can follow github me.
+          <a href="https://github.com/Thanaschai">thanaschai</a>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-muted m-4">
+      © 2023 thanaschai-suatap.com by Thanaschai Chanabua
     </p>
-    <br />
-    <br />
-    <p style="text-align: center; margin-right: 5px">
-    <a href="mailto:thanatchai_c@cmu.ac.th">thanatchai_c@cmu.ac.th<a></a>
-  </p>
-    <p class="skill-header">0928761394</p>
-    <p style="text-align: center; margin-right: 5px">
-    <a href="https://www.youtube.com/channel/UCK0Oab6wD8blHHTt2eCId3g">Chanal Youtube<a></a>
-  </p>
-    
   </body>
 </html>
